@@ -5,5 +5,8 @@ public class Main {
 		System.out.println("test success");
 		System.out.println("Date:: " + new Date());
 		System.out.println("added one more print");
+
+		Student student = new Student();
+		student.sayHello();
 	}
 }
